@@ -1,16 +1,17 @@
   
+// var numbers = [1, 2, 0, -1, -2, 3, 4];
+ 
+// function func(array){ 
+  
+//     var totle = 0;
+//     for(num of array){ 
 
-//   function numbers(array){ 
+//         if(num > 0){ 
 
-//        var Wnubers = 0; 
-//        for(var i = 0; i = array.length; i++){ 
+//           totle += num
+//         }
+//     } 
+//     return totle;
+// } 
 
-//          if(array[i] > 0){ 
-
-//             Wnubers += array[i];
-//          }
-
-//        } 
-//        return Wnubers;
-//   } 
-//   console.log(numbers([1,2,0,-1,-2,3,4,]));
+// console.log(func(numbers));

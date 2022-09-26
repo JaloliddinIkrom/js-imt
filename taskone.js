@@ -1,21 +1,22 @@
- 
+// var numbers = [1, 3, 0, 5, 0, 7, 0]; 
 
-//  function zeroEnd(array){ 
+//  function func(array){ 
 
-//     var WzeroEnd = []; 
+//     var str = '';
+//     var str2 = '';
 
-//     for(var i = 0; i < array.lenght; i++){ 
+//     for(var i = 0; i < array.length; i++){ 
 
 //         if(array[i] == 0){ 
 
-//             WzeroEnd.push (array[i]);
+//           str += array[i];
 //         } 
 //         else{ 
 
-//             WzeroEnd.unshift (array[i]);
+//             str2 += array[i];
 //         }
 //     } 
-//     return WzeroEnd;
-//  } 
+//     return str2 + str;
+//  }
 
-//  console.log(zeroEnd([1,3,0,5,0,7,0]));
+//  console.log(func(numbers));

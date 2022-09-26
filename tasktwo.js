@@ -1,16 +1,16 @@
  
-// function nevs(array){ 
+// var array = [true, false, true, false, false, true, false];
 
-// var Warray = 0; 
+// function func(arr){ 
+//    var count = 0; 
 
-// for(var i = 0; i < array.length; i++){ 
+//     for(el of arr){ 
+     
+//         if(el){ 
 
-//     if(Boolean(array[i] == false)){ 
-
-//         Warray ++
-//     }
+//             count++
+//         }
+//     } 
+//     return count;
 // } 
-// return Warray;
-
-// } 
-// console.log(nevs([false, true, false, false, true]));
+// console.log(func(array));
